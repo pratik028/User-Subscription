@@ -1,0 +1,170 @@
+#user_subscription_settings {
+    float: left;
+    width: 100%;
+}
+
+#user_subscription_settings .inside {
+    padding: 0px;
+}
+
+#user_subscription_settings #user-subscription-tabs {
+    float: left;
+    width: 100%;
+}
+
+#user-subscription-tabs .us-tabs-wrapper {
+    padding: 15px 10px;
+    position: relative;
+    color: #333333;
+    overflow: hidden;
+    text-align: left;
+}
+
+#user_subscription_settings #user-subscription-tabs>ul {
+    padding-left: 10px;
+    border-bottom-color: #E8E8E8;
+    background: transparent;
+    border-bottom: #E8E8E8 solid 1px;
+    margin: 0 0 10px;
+    padding: 10px 2px 0 10px;
+    overflow: hidden;
+}
+
+#user_subscription_settings #user-subscription-tabs>ul li {
+    font-size: 23px;
+    line-height: 29px;
+    margin: 0 8px 0 0;
+    float: left;
+    display: block;
+    padding: 0;
+}
+
+#user_subscription_settings #user-subscription-tabs>ul li a {
+    background: #F1F1F1;
+    outline: none;
+    padding: 6px 10px;
+    display: block;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    border: #CCCCCC solid 1px;
+    border-bottom: 0 none;
+    text-decoration: none;
+    webkit-transition-property: border,background,color;
+    transition-property: border,background,color;
+    -webkit-transition-duration: .05s;
+    transition-duration: .05s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+#user_subscription_settings #user-subscription-tabs ul>li a:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+#user_subscription_settings #user-subscription-tabs ul>li[aria-selected="true"] a {
+    background-color: #fff;
+    margin-bottom: -1px;
+    padding-bottom: 7px;
+}
+
+
+.us-tabs-wrapper p.label {
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
+    color: #666666;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.us-tabs-wrapper p.label label {
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 3px;
+    display: block;
+    vertical-align: text-bottom;
+}
+
+table.us-input-table > tbody > tr {
+    background: #fff;
+}
+
+table.us-input-table > tbody > tr > td {
+    background: transparent;
+    border: 0 none;
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 8px;
+    position: relative;
+}
+
+table.us-input-table > tbody > tr > td {
+    background: transparent;
+    border: 0 none;
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 8px;
+    position: relative;
+}
+
+.us-tabs-wrapper .widefat th, .us-tabs-wrapper .widefat td {
+    overflow: visible;
+}
+
+table.us-input-table.row_layout > tbody > tr > td {
+    border-top-color: #DFDFDF;
+}
+
+table.us-input-table > tbody > tr:first-child > td {
+    border-top: 0 none;
+}
+
+table.us_input tbody tr td.label {
+    width: 25%;
+    vertical-align: top;
+    background: #F9F9F9;
+    border-top: 1px solid #f0f0f0;
+    border-right: 1px solid #E1E1E1;
+}
+
+table.us_input > tbody > tr:first-child > td, table.us_input > tbody > tr:first-child > td.label {
+    border-top: 0 none;
+}
+
+table.us_input tbody tr td.label label {
+    display: block;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 3px;
+    color: #333;
+}
+
+table.us_input tbody tr td {
+    padding: 13px 15px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 0 none;
+}
+
+.us-tabs-wrapper input[type="text"] {
+    height: 27px;
+}
+
+table.us_input input[type="text"]:focus, table.us_input textarea:focus, table.us_input select:focus {
+    border-color: #98B6CB;
+}
+
+table.us-input-table > tbody > tr > td:last-child {
+    border-right: 0 none;
+}
