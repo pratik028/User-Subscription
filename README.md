@@ -1,8 +1,6 @@
 === User Subscription ===
 
 Notifies an email list when new entries are posted.
-
-== Description ==
 This plugin lets a user subscribe and un-subscribe to posts within a certain category or categories. 
 Subscribers will receive an e-mail with a link based on the notification selected (daily, weekly or monthly) to the actual post. E-mails to subscribers are sent with WP Cron.
 
